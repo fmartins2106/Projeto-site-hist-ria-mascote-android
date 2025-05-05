@@ -8,7 +8,7 @@
     font-weight: normal;
 }
 
-:root{
+:root{  
     --cor1: #c5ebd5;
     --cor2: #83e1ad;
     --cor3: #3ddc84;
@@ -68,7 +68,8 @@ nav > a{
     transition-duration: 0.5s;
 }
 nav > a:hover {
-    background-color: var(--cor3);
+    background-color: var(--cor4);
+    color: var(--cor6);
 }
 main{
     background-color: white;
@@ -110,10 +111,9 @@ main p {
 main strong{
     color: var(--cor5);
     font-weight: bold;
-
 }
 main a{
-    text-decoration: nome;
+    text-decoration:    nome;
     font-weight: bold;
     color: var(--cor6);
     background-color: 2px 6px;
